@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PaletteView4</string>
+    <string name="chip">chip</string>
+    <string name="fruit">Fruit</string>
+    <string name="apple">Apple</string>
+    <string name="banana">Banana</string>
+    <string name="melon">Melon</string>
+    <string name="strawberry">Strawberry</string>
+
+</resources>

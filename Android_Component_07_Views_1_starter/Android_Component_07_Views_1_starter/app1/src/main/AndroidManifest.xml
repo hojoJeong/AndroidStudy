@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ssafy.palette_1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SSAFY1">
+        <activity android:name="com.ssafy.palette_1.TextureViewActivity" />
+        <activity android:name="com.ssafy.palette_1.SearchViewActivity"/>
+        <activity android:name="com.ssafy.palette_1.RatingBarActivity" />
+        <activity android:name="com.ssafy.palette_1.SeekBarActivity" />
+        <activity android:name="com.ssafy.palette_1.progressbar.ProgressBarActivity2" />
+        <activity android:name="com.ssafy.palette_1.progressbar.ProgressBarActivity" />
+        <activity android:name="com.ssafy.palette_1.CalendarViewActivity" />
+        <activity android:name="com.ssafy.palette_1.VideoViewActivity" />
+        <activity android:name="com.ssafy.palette_1.MainActivity"/>
+        <activity android:name="com.ssafy.palette_1.StartActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

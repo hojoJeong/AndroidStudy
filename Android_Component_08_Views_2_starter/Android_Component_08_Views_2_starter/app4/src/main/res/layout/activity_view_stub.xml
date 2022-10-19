@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewStubActivity"
+    android:gravity="center"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/main_btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"/>
+
+
+    <Button
+        android:id="@+id/main_btn_hide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        android:text="hide"/>
+
+    <ViewStub
+        android:id="@+id/main_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inflatedId="@+id/layout_viewstub"
+        android:layout="@layout/layout_viewstub"/>
+
+</LinearLayout>

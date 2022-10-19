@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <Button
+        android:id="@+id/button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Divider-MainActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageButtonActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ChipActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBoxActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RadioActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleActivity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/button_7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchActivity"
+        android:textAllCaps="false" />
+
+
+</LinearLayout>

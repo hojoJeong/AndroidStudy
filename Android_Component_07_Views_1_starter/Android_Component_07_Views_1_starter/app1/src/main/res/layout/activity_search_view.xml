@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchViewActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="?attr/colorPrimary"
+        android:theme="?attr/actionBarTheme"/>
+
+    <TextView
+        android:id="@+id/searchView_in_toolbar_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="searchView in toolbar 입력값"/>
+
+    <SearchView
+        android:id="@+id/searchView_alone"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintTop_toBottomOf="@id/searchView_in_toolbar_tv"
+        android:layout_marginTop="100dp"
+        android:background="@color/gray_000"
+
+        android:searchIcon="@drawable/ic_search"
+        android:closeIcon="@drawable/ic_close"
+        app:iconifiedByDefault="false"
+        android:queryBackground="@color/gray_100"
+        app:queryHint="검색어를 입력해주세요"/>
+
+    <TextView
+        android:id="@+id/searchView_alone_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/searchView_alone"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="searchView 입력값"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to Texture View Example"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

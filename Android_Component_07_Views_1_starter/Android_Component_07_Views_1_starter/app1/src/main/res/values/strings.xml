@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PaletteView1</string>
+
+    <string name="calendar_tv">날짜를 선택해주세요</string>
+    <string name="indeterminate_progressBar_button">불확정적 ProgressBar Start!</string>
+    <string name="loading_dialog_tv">Loading…</string>
+    <string name="start_progress">Start Progress</string>
+    <string name="search_view_title">SearchView</string>
+    <string name="search_view_hint">검색어를 입력하세요.</string>
+
+</resources>
