@@ -40,7 +40,6 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "onServiceDisconnected: ")
             isBound = false
         }
-
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

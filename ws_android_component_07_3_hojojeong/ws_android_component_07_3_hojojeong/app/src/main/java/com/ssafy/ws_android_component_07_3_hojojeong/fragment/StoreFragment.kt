@@ -23,38 +23,26 @@ import com.ssafy.ws_android_component_07_3_hojojeong.databinding.FragmentStoreBi
 import com.ssafy.ws_android_component_07_3_hojojeong.dto.StoreDto
 import com.ssafy.ws_android_component_07_3_hojojeong.stuff.StuffActivity
 
-private const val ARG_STORE = "storeList"
-private const val ARG_STUFF = "stuffList"
 private const val TAG = "StoreFragment 싸피"
 class StoreFragment : Fragment() {
     private lateinit var binding: FragmentStoreBinding
-    private lateinit var activity: Context
     private lateinit var storeItem: StoreDto
-
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        activity = context as MainActivity
-    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         storeItem = StoreDto("싸피벅스", "010-1234-5678", "36.10830144", "128.41827")
-
     }
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         binding = FragmentStoreBinding.inflate(inflater, container, false)
         return binding.root
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        Log.d(TAG, "onViewCreated: check")
-        
-
         Log.d(TAG, "onViewCreated: $storeItem")
         binding.txtMainTitle.text = storeItem.title
         binding.txtMainNumber.text = storeItem.number
@@ -86,7 +74,7 @@ class StoreFragment : Fragment() {
     @RequiresApi(Build.VERSION_CODES.M)
     private fun checkPermission() {
         if (ContextCompat.checkSelfPermission(
-                activity,
+                requireActivity(),
                 Manifest.permission.WRITE_CONTACTS
             ) == PackageManager.PERMISSION_GRANTED
         ) {
