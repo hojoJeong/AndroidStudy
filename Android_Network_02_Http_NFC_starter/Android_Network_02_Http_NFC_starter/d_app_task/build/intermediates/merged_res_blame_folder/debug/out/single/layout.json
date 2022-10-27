@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.ssafy.android.task.d_app_task-mergeDebugResources-25:/layout/third.xml",
+        "source": "com.ssafy.android.task.d_app_task-main-28:/layout/third.xml"
+    },
+    {
+        "merged": "com.ssafy.android.task.d_app_task-mergeDebugResources-25:/layout/activity_main.xml",
+        "source": "com.ssafy.android.task.d_app_task-main-28:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.ssafy.android.task.d_app_task-mergeDebugResources-25:/layout/second.xml",
+        "source": "com.ssafy.android.task.d_app_task-main-28:/layout/second.xml"
+    }
+]

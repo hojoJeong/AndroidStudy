@@ -107,7 +107,6 @@ class CameraActivity : AppCompatActivity() {
         }
     }
 
-
     override fun onDestroy() {
         super.onDestroy()
         mCamera?.release()
