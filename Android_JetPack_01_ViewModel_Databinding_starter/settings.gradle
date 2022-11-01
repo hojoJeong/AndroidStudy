@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "ViewModel_DataBinding_starter"
+include ':a_viewmodel_0'
+include ':a_viewmodel_1'
+include ':a_viewmodel_2'
+include ':a_viewmodel_ktx'
+include ':b_databinding_0'
+include ':b_databinding_1'
+include ':b_databinding_2'
