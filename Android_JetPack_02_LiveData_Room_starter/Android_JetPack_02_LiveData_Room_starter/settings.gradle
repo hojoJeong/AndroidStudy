@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "LiveData_Room_starter"
+include ':live_data_1'
+include ':live_data_2'
+include ':live_data_3'
+include ':live_data_4'
+include ':room_note_origin'
+include ':room_starter'
+

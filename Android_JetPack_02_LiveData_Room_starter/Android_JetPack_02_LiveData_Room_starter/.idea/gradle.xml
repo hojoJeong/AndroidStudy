@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/live_data_1" />
+            <option value="$PROJECT_DIR$/live_data_2" />
+            <option value="$PROJECT_DIR$/live_data_3" />
+            <option value="$PROJECT_DIR$/live_data_4" />
+            <option value="$PROJECT_DIR$/room_note_origin" />
+            <option value="$PROJECT_DIR$/room_starter" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
