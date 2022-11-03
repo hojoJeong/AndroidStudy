@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="pref_show_text1_default">true</bool>
+    <bool name="pref_show_text2_default">false</bool>
+</resources>
+
+

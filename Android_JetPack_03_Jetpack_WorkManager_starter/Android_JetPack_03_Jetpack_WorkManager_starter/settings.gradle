@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "JetpackAll_workmanager_starter"
+include ':jetpackall_0' // room_sol 그대로 package명만 바꿈
+include ':jetpackall_after'
+include ':workmanager'
+
