@@ -1,0 +1,23 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+rootProject.name = "Ble_Beacon_starter"
+include ':a1_ble_scan'
+include ':a2_ble_control'
+include ':a3_ble_control_with_lib'
+include ':b1_beacon_basic'
+include ':b2_beacon_scanner'
+include ':b3_beacon_altbeacon'
+include ':z_beacon_bluetoothLELibrary'

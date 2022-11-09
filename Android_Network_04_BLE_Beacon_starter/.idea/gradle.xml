@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/a1_ble_scan" />
+            <option value="$PROJECT_DIR$/a2_ble_control" />
+            <option value="$PROJECT_DIR$/a3_ble_control_with_lib" />
+            <option value="$PROJECT_DIR$/b1_beacon_basic" />
+            <option value="$PROJECT_DIR$/b2_beacon_scanner" />
+            <option value="$PROJECT_DIR$/b3_beacon_altbeacon" />
+            <option value="$PROJECT_DIR$/z_beacon_bluetoothLELibrary" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

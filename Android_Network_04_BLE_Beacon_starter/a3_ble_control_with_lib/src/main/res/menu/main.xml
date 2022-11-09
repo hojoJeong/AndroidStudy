@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ssafy.bletest.MainActivity" >
+
+    <item
+        android:id="@+id/action_scan"
+        android:title="Scan"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_stop"
+        android:title="Stop"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:id="@+id/action_test1"
+        android:title="Test1">
+    </item>
+    <item
+        android:id="@+id/action_test2"
+        android:title="Test2">
+    </item>
+    <item
+        android:id="@+id/action_test3"
+        android:title="Test3">
+    </item>
+    <item
+        android:id="@+id/action_test4"
+        android:title="Test4">
+    </item>
+
+</menu>
